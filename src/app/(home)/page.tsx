@@ -4,11 +4,11 @@ import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
 import { Textarea } from "@/components/ui/textarea";
 
-export default function Home() {
+const HomePage = () => {
   return (
     <div className='flex flex-col space-y-6 p-4'>
       <div>
-        <Button variant={"elevated"} >Click me</Button>
+        <Button variant={"elevated"}>Click me</Button>
       </div>
       <div>
         <Input placeholder='Search...' />
@@ -24,4 +24,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default HomePage;
